@@ -13,5 +13,9 @@ let operators = {
 
   divide(a,b) {
    return a / b;
+  },
+
+  operate(operator,a,b) {
+	return operator(a,b);
   }
 }
